@@ -183,8 +183,8 @@ function TeamSection() {
                     />
                     </div>
                     <div class="caption">
-                        <h3>Claire Paterson</h3>
-                        <p>Design</p>
+                        <h3>Anke Pachauer</h3>
+                        <p>Marketing</p>
                     </div>
             </a>
         </div>
