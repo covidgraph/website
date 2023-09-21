@@ -1,0 +1,85 @@
+* {
+    /* box-sizing:border-box; */
+    padding:0;
+    margin:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* min-height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container > * {
+    flex: 0 1 25rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e2efd9;
+    width:100px;
+    height:400px;
+    margin:10px;
+    margin-top: 48px;
+    border-radius: 0px;
+    }
+
+.card h3 {
+    color: #fff;
+}
+
+.card p {
+    padding: 5px;
+    color: #fff;
+}
+
+.card:hover {
+    background-color: #363636;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.4s ease;
+}
+
+.red {
+    background-color: #e12e26;
+}
+
+.yellow{
+    background-color: #fbbe08;
+}
+
+.blue {
+    background-color: #75b6d7;
+}
+
+.purple {
+    background-color: #881555;
+}
+
+.green {
+    background-color: #60bfb6;
+}
+
+.pink {
+    background-color: #b2b2b2;
+}
+
+.cream {
+    background-color: #e2efd9;
+}
+
+.card a:link {text-decoration:none; color: #000;}
+.card a:visited {text-decoration:none; color:#000; }
+.card a:hover {text-decoration:none;  }
+.card a:active {text-decoration:none; }
+
+.caption {
+    border-top: 5px solid white;
+}

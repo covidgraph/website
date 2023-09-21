@@ -1,0 +1,17 @@
+.splash {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 100px;
+    width: 70%;
+}
+
+.banner > p {
+    padding: 10px;
+    text-align: center;
+}
