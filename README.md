@@ -100,4 +100,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 
 # Deploy to GitHub Pages
 
-https://dev.to/flexdinesh/deploy-gatsby-sites-to-github-pages-eed
+https://medium.com/@sam-king/deploying-a-gatsby-site-to-github-pages-using-github-actions-ci-cd-be0465a8cdb8
